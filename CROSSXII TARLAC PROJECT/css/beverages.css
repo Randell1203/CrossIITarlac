@@ -1,0 +1,107 @@
+.beverage-title{
+	font-weight: bold;
+	font-size:20pt;
+	color:#ffffff;
+	margin:5px;
+}
+
+.beverage-name-juice{
+	font-size:14pt;
+	color:#ffeb00;
+}
+
+.product-menu-name{
+	font-size:12pt;
+	color:#ffffff;
+	font-weight: 600;
+}
+
+
+.image-container{
+    position: relative;}
+
+.text-block {
+    position: absolute;
+    bottom: 50%;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.menu-description{
+	font-style: italic;
+	font-weight: 100;
+	font-size: 10pt;
+}
+
+.menu{
+	/*border-left: 1px solid #ffeb00;
+	border-bottom: 1px solid #ffeb00;
+	border-right: 1px solid #ffeb00;
+	border-top: 1px solid #ffeb00;*/
+	padding: 10px 10px 10px 10px;
+}
+
+.product-menu-price {
+	font-style:italic; 
+	margin-right:20px;
+	font-weight: 600;
+	color: #ffeb00;
+}
+
+.main-product-title{
+	font-weight: 600;
+	font-size: 20pt;
+}
+
+
+
+
+.ribbon {
+ font-size: 16px !important;
+ /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
+
+ width: 88%;
+    
+ position: relative;
+ background: #ffeb00;
+ color: #a70303;
+ text-align: center;
+ padding: 1em 2em; /* Adjust to suit */
+ margin: 2em auto ; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid #ffeb00;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #6b4618 transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
